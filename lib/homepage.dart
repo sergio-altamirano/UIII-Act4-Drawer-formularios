@@ -40,17 +40,17 @@ class HomePage extends StatelessWidget {
             UserAccountsDrawerHeader(
               decoration: BoxDecoration(color: Colors.pink),
               accountName: Text("Sergio Altamirano 1041"),
-               accountEmail: Text("sergio.Altamirano@cbtis128.edu.mx"),
+               accountEmail: Text("a.22308051281041@cbtis128.edu.mx"),
                currentAccountPicture: GestureDetector(
                  child: CircleAvatar(
+                  backgroundColor: const Color.fromARGB(255, 241, 175, 175),
                   child: Text(
-                    "AM",
+                    "SA",
                     style: TextStyle(
                         color: Colors.pink,
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold),
                   ),
-                  backgroundColor: Colors.white,
                 ),
                ),
             )
